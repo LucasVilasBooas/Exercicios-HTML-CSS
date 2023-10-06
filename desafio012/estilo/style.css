@@ -16,7 +16,7 @@
     font-size: 1em;
 }
 
-html, body{
+html, body{   /* para que serve o html aqui  */
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
@@ -61,7 +61,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size:1.5vw ;
+    font-size: 2vw ;
 }
 
 section > p {
