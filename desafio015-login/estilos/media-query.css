@@ -5,48 +5,32 @@
         background-image: url(../imagens/mari-blusao-meia.jpg);
         background-position: center center;
     }
-
     section#login{
         width: 90vw;
         background-position: center top;
         background-size: cover;
         height: 310px;
     }
-
     section#login > div#imagem { 
         float: left;
         width: 30%;
         height: 100%;
     }
-
     section#login > div#formulario { 
         float: right;
         width: 70%;
     }
-
-    /*form > div.campo {
-        background-color: orange;
-        display: block;
-        width: 50%;
-        height: 40px;
-        border-radius: 5px;
-        margin: 5px 0px;
-    }*/
 }
-
 @media screen and (min-width: 992px) {
-    
     body {
     background-image: url(../imagens/mari-blusao-meia.jpg);
     background-position: center top;
     background-size: cover;
     } 
-
     section#login {
         width: 80vw;
         height:400px;
     }
-    
     section#login > div#imagem {
         background: url(../imagens/mari-mijada.jpg);
         float: right;
@@ -55,11 +39,9 @@
         background-size: cover;
     background-position: center center;
     }
-
     div#formulario > p {
         font-size: 1.5em;
     }
-
     form > div.campo {
         background-color: orange;
         display: block;
@@ -69,7 +51,6 @@
         margin: 5px 0px;
     }
 }
-
 form > input[type=submit] {
     display: block;
     font-size: 1em;
