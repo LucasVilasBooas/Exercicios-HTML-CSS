@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -15,25 +17,27 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) ao mundo da Mari, faça login para ter acesso ao conteudo premium. </p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
                     <br>
-                    <p>
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="Usuario" autocomplete="email" required minlength="2">
                         <label for="ilogin">Login</label>
-                        <input type="text" name="login" id="ilogin">
-                    </p>
-                    <p>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="Senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="6">
                         <label for="isenha">Senha</label>
-                        <input type="password" name="Senha" id="isenha">
-                    </p>
+                    </div>
                     <br>
-                    <p>
+                    <div>
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Limpar">
-                    </p>
+                    </div>
                     <br>
-                    <p>
+                    <div style="font-size: small;">
                         Não conseguiu acessar ? <a href="#">Click aqui</a> para recuperar a senha!
-                    </p>
+                    </div>
                 </form>
             </div>
         </section>
